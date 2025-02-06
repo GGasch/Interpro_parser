@@ -1,14 +1,14 @@
 from setuptools import setup
 
 setup(
-    name='interpro_parser',
+    name='Int_Pars',
     version='1.0.0',    
     description='A code to extract domain sequences based on interpro data (table file and fasta file)',
     url='https://github.com/GGasch/interpro_parser.git',
     author='Geoffroy Gaschignard',
     author_email='geoffroy.gaschignard@gmail.com',
     license='MIT Licence',
-    packages=['interpro_parser'],
+    packages=['Int_Pars'],
     install_requires=['Bio',
                       'tqdm',
                       'argparse', 
